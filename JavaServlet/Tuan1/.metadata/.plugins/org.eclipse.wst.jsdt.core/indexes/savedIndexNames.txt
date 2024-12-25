@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+D:\LTWWW\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3369253048.index
+590106915.index
+3616678646.index
+616595214.index
+3234973791.index
+2711186455.index
+2841748420.index

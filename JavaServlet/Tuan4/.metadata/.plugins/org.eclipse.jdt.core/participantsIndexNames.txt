@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+D:\LTWWW\Tuan4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1934641401.index
+\PhanNguyenKhoiNguyen_21068021_Tuan04\src\main\java
+D:\LTWWW\Tuan4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2337663770.index
+\PhanNguyenKhoiNguyen_21068021_Tuan04\src\main\java
+T:\PhanNguyenKhoiNguyen_21068021_Tuan04\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2337663770.index
+\PhanNguyenKhoiNguyen_21068021_Tuan04\src\main\java

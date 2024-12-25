@@ -1,0 +1,86 @@
+package tuan3;
+
+import java.io.IOException;
+import java.util.Properties;
+
+import javax.mail.Authenticator;
+import javax.mail.BodyPart;
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.Multipart;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeBodyPart;
+import javax.mail.internet.MimeMessage;
+import javax.mail.internet.MimeMultipart;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+//@WebServlet("/Bai8")
+public class Bai8 extends HttpServlet {
+    private static final long serialVersionUID = 1L;
+
+    public Bai8() {
+        super();
+    }
+
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.getWriter().append("Served at: ").append(request.getContextPath());
+    }
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String to = "nguyenphan1122k3@gmail.com";
+        String from = "haianhchidan@gmail.com";
+        String pass = "wawc kqgr yvur vlaz";
+
+        Properties properties = System.getProperties();
+        properties.put("mail.smtp.host", "smtp.gmail.com");
+        properties.put("mail.smtp.port", "587"); //587 là cổng mặc định của SMTP khi sử dụng TLS, còn 465 là cổng mặc định khi sử dụng SSL
+        properties.put("mail.smtp.auth", "true");
+        properties.put("mail.smtp.starttls.enable", "true"); // Enable STARTTLS
+//        properties.put("mail.smtp.ssl.trust", "smtp.gmail.com"); 
+
+
+        //Tạo đối tượng Authenticator để xác thực tài khoản
+        Authenticator authenticator = new Authenticator() {
+			@Override
+			protected PasswordAuthentication getPasswordAuthentication() {
+				// TODO Auto-generated method stub
+				return new PasswordAuthentication(to, pass);
+			}
+        };
+        //Phiên làm việc giữa ứng dụng và máy chủ
+        Session session = Session.getInstance(properties, authenticator);
+        
+
+        try {
+            MimeMessage message = new MimeMessage(session);
+            message.setFrom(new InternetAddress(from));
+            message.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
+            message.setSubject("Subject Line!");
+
+            BodyPart messageBodyPart = new MimeBodyPart();
+            String htmlContent = "<h1>This is the HTML content</h1><p>Here is a paragraph in the email.</p>";
+            messageBodyPart.setContent(htmlContent, "text/html");
+
+            Multipart multipart = new MimeMultipart();
+            multipart.addBodyPart(messageBodyPart);
+
+            messageBodyPart = new MimeBodyPart();
+            String filename = "file.txt";
+            ((MimeBodyPart) messageBodyPart).attachFile(filename);
+            multipart.addBodyPart(messageBodyPart);
+
+            message.setContent(multipart);
+            Transport.send(message);
+            System.out.println("Email sent successfully.");
+        } catch (MessagingException | IOException mex) {
+            mex.printStackTrace();
+        }
+    }
+}

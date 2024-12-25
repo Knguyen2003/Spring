@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+  <form action="Bai6Servlet" method="POST" enctype="multipart/form-data"> 
+  	<h1>Upload mult-files</h1>
+  	<span>File #1: </span> <input type="file" name= "file1"><br>
+  	<span>File #2: </span> <input type="file" name= "file2"><br>
+ 	<span>File #3: </span> <input type="file" name= "file3"><br>
+  	<span>File #4: </span> <input type="file" name= "file4"><br>
+ 	<span>File #5: </span> <input type="file" multiple="multiple" name= "file5"><br>
+    <br>
+    <input type="submit" value="Upload" name="upload" id="upload">
+    <input type="reset" value="Reset" name= "reset" id="reset">
+
+  </form>
+  
+
+</body>
+</html>
+
+<!--multipart/form-data là kiểu dữ liệu được sử dụng khi gửi dữ liệu từ một biểu mẫu HTML, 
+đặc biệt là khi gửi các tệp. Khi bạn gửi một biểu mẫu có thuộc tính enctype="multipart/form-data", 
+dữ liệu được chia thành nhiều phần (parts) trong yêu cầu HTTP.  -->

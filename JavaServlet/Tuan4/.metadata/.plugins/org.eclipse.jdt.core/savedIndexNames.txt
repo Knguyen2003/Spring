@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+D:\LTWWW\Tuan4\.metadata\.plugins\org.eclipse.jdt.core
+3198480242.index
+1865797976.index
+3018950417.index

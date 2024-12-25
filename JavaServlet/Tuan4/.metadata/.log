@@ -1,0 +1,471 @@
+!SESSION 2024-09-11 12:49:33.803 -----------------------------------------------
+eclipse.buildId=4.30.0.20231201-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data T:\PhanNguyenKhoiNguyen_21068021_Tuan04 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-09-11 12:49:35.336
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-11 12:49:35.564
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-11 12:49:36.322
+!MESSAGE Logback config file: T:\PhanNguyenKhoiNguyen_21068021_Tuan04\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-09-11 12:49:37.988
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-09-11 12:49:37.988
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-11 12:49:40.283
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Student'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-09-11 12:49:46.086
+!MESSAGE [Info]	Registering request handler for workspace/didChangeWorkspaceFolders failed.
+!SESSION 2024-09-11 16:51:27.314 -----------------------------------------------
+eclipse.buildId=4.30.0.20231201-1200
+java.version=21.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-09-11 16:51:31.803
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-11 16:51:32.075
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 4 567 2024-09-11 16:53:07.772
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2024-09-11 16:53:07.772
+!MESSAGE Could not read metadata for '.org.eclipse.egit.core.cmp'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/.org.eclipse.egit.core.cmp)[567]: java.lang.Exception: The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:955)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:934)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:790)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2620)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2324)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:258)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:185)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2024-09-11 16:53:07.788
+!MESSAGE The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:955)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:934)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:790)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2620)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2324)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:258)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:185)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2024-09-11 16:53:07.788
+!MESSAGE Could not read metadata for 'Servers'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Servers)[567]: java.lang.Exception: The project description file (.project) for 'Servers' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:955)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:934)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:790)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2620)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2324)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:258)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:185)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2024-09-11 16:53:07.788
+!MESSAGE The project description file (.project) for 'Servers' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'Servers' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:955)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:934)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:790)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2620)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2324)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:258)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:185)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-11 16:53:08.332
+!MESSAGE Logback config file: D:\LTWWW\Tuan4\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-09-11 16:53:10.424
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-09-11 16:53:10.424
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-11 16:53:15.493
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ACER'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-09-11 16:53:15.605
+!MESSAGE Removing PartDescriptorImpl with the "org.hibernate.eclipse.console.views.KnownConfigurationsView" id and the "Hibernate Configurations" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-09-11 16:53:15.607
+!MESSAGE Removing PartDescriptorImpl with the "org.hibernate.eclipse.console.views.QueryPageTabView" id and the "Hibernate Query Result" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-09-11 16:53:15.609
+!MESSAGE Removing PartDescriptorImpl with the "org.hibernate.eclipse.console.views.DynamicSQLPreviewView" id and the "Hibernate Dynamic SQL Preview" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-09-11 16:53:15.612
+!MESSAGE Removing PartDescriptorImpl with the "org.hibernate.eclipse.console.views.QueryParametersView" id and the "Query Parameters" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-09-11 16:53:16.335
+!MESSAGE Error reading modules from C:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\lib\jrt-fs.jar
+!STACK 0
+java.io.FileNotFoundException: C:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\release (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at org.eclipse.jdt.internal.compiler.util.Jdk.readJdkReleaseFile(JRTUtil.java:493)
+	at org.eclipse.jdt.internal.compiler.util.Jdk.lambda$0(JRTUtil.java:446)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.eclipse.jdt.internal.compiler.util.Jdk.<init>(JRTUtil.java:444)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(JRTUtil.java:145)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:240)
+	at org.eclipse.jdt.internal.core.JavaProject.loadModulesInJimage(JavaProject.java:979)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:778)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:684)
+	at org.eclipse.jdt.internal.core.ClasspathChange.generateDelta(ClasspathChange.java:351)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2132)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:503)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-11 16:53:18.568
+!MESSAGE <null>
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at com.genuitec.copilot4eclipse.Copilot4Eclipse.lambda$0(Unknown Source)
+	at com.genuitec.copilot4eclipse.Copilot4Eclipse$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-09-11 16:53:19.208
+!MESSAGE [Info]	Registering request handler for workspace/didChangeWorkspaceFolders failed.
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-11 16:53:22.151
+!MESSAGE <null>
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at com.genuitec.copilot4eclipse.Copilot4Eclipse.lambda$0(Unknown Source)
+	at com.genuitec.copilot4eclipse.Copilot4Eclipse$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.text 4 2 2024-09-11 17:00:18.572
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4899)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.custom.StyledText.getLineAtOffset(StyledText.java:3590)
+	at com.genuitec.A.A.A.A(Unknown Source)
+	at com.genuitec.A.A.B.F(Unknown Source)
+	at com.genuitec.A.A.B.A(Unknown Source)
+	at com.genuitec.copilot4eclipse.utils.PlatformSWTUtil.invokeOnDisplayThread(PlatformSWTUtil.java:234)
+	at com.genuitec.A.A.B.E(Unknown Source)
+	at com.genuitec.copilot4eclipse.CopilotEditSession.handleTextEvent(Unknown Source)
+	at com.genuitec.copilot4eclipse.CopilotEditSession$2.textChanged(Unknown Source)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2789)
+	at org.eclipse.jface.text.TextViewer$VisibleDocumentListener.documentChanged(TextViewer.java:396)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:739)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:708)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:692)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:766)
+	at org.eclipse.jface.text.projection.ProjectionDocument.fireDocumentChanged(ProjectionDocument.java:772)
+	at org.eclipse.jface.text.projection.ProjectionDocument.masterDocumentChanged(ProjectionDocument.java:742)
+	at org.eclipse.jface.text.projection.ProjectionDocumentManager.fireDocumentEvent(ProjectionDocumentManager.java:126)
+	at org.eclipse.jface.text.projection.ProjectionDocumentManager.documentChanged(ProjectionDocumentManager.java:132)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:739)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:708)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:692)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:766)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1091)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(SynchronizableDocument.java:176)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1109)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(SynchronizableDocument.java:164)
+	at org.eclipse.text.edits.InsertEdit.performDocumentUpdating(InsertEdit.java:78)
+	at org.eclipse.text.edits.TextEdit.traverseDocumentUpdating(TextEdit.java:920)
+	at org.eclipse.text.edits.TextEdit.traverseDocumentUpdating(TextEdit.java:913)
+	at org.eclipse.text.edits.TextEdit.traverseDocumentUpdating(TextEdit.java:913)
+	at org.eclipse.text.edits.TextEditProcessor.executeDo(TextEditProcessor.java:196)
+	at org.eclipse.text.edits.TextEdit.dispatchPerformEdits(TextEdit.java:742)
+	at org.eclipse.text.edits.TextEditProcessor.performEdits(TextEditProcessor.java:158)
+	at org.eclipse.jface.text.RewriteSessionEditProcessor.performEdits(RewriteSessionEditProcessor.java:99)
+	at org.eclipse.jdt.internal.ui.javaeditor.DocumentAdapter$ApplyTextEditCommand.run(DocumentAdapter.java:202)
+	at org.eclipse.jdt.internal.ui.javaeditor.DocumentAdapter.run(DocumentAdapter.java:135)
+	at org.eclipse.jdt.internal.ui.javaeditor.DocumentAdapter$ApplyTextEditCommand.applyTextEdit(DocumentAdapter.java:212)
+	at org.eclipse.jdt.internal.ui.javaeditor.DocumentAdapter.applyTextEdit(DocumentAdapter.java:637)
+	at org.eclipse.jdt.internal.core.CompilationUnit.applyTextEdit(CompilationUnit.java:76)
+	at org.eclipse.jdt.internal.corext.util.JavaModelUtil.applyEdit(JavaModelUtil.java:1312)
+	at org.eclipse.jdt.internal.corext.codemanipulation.tostringgeneration.GenerateToStringOperation.run(GenerateToStringOperation.java:118)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5971)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2348)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2345)
+	at org.eclipse.ui.internal.progress.ProgressManager$RunnableWithStatus.run(ProgressManager.java:1132)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.progress.ProgressManager.lambda$27(ProgressManager.java:1011)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4802)
+	at org.eclipse.ui.internal.progress.ProgressManager.runInUI(ProgressManager.java:1011)
+	at org.eclipse.jdt.ui.actions.GenerateMethodAbstractAction.run(GenerateMethodAbstractAction.java:302)
+	at org.eclipse.jdt.ui.actions.GenerateMethodAbstractAction.checkAndRun(GenerateMethodAbstractAction.java:223)
+	at org.eclipse.jdt.ui.actions.GenerateMethodAbstractAction.run(GenerateMethodAbstractAction.java:181)
+	at org.eclipse.jdt.ui.actions.GenerateToStringAction.run(GenerateToStringAction.java:1)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:278)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)

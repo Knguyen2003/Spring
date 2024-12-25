@@ -1,0 +1,7 @@
+2024-08-28 15:38:41,830 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-08-28 18:56:36,478 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-08-29 11:58:12,364 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-08-29 12:15:16,911 [Worker-15: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-08-29 12:21:29,765 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-09-04 15:53:29,711 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-09-04 15:53:38,516 [Worker-12: Deferred Early Start] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://www.eclipse.org:443

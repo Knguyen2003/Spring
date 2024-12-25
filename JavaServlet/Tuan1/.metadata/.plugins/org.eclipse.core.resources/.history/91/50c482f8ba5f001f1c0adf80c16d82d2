@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form method="Get" action=RegistrationForm_Bai4 name="registrationForm">
+		<h1>Register</h1> 
+        <label>Name*</label> <br>
+         Frist: <input type="text" name="first">
+         Last: <input type="text" name="last"> <br>
+        <label>Username*</label> <br>
+        <input type="text" name="usn"> <br>
+        <label>Email*</label> <br>
+        <input type="text" name="email"> <br>
+        <label>Password*</label> <br>
+        <input type="password" name="pw"> <br>
+        <label>Facebook</label> <br>
+        <input type="text" name="face"> <br>
+        <label>Enter your Facebook profile URL</label> <br>
+        <label>Short Bio</label> <br>
+        <input type="text" name="short"> <br>
+        <label>Share a little </label> <br> 
+        <button>Submit</button>
+        <form>
+</body>
+</html>

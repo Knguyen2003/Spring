@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+    <a href="Login">VAO TRANG LOGIN</a>
+    <hr>
+	<form method="post" action="Login" name="loginForm">
+		<h1>Login</h1>
+		<label>Username*</label> <br>
+		<input type="text" name="usn"> <br>
+		<label>Password*</label> <br>
+		<input type="password" name="pw"> <br>
+		<input type="submit">
+	</form>
+</body>
+</html>

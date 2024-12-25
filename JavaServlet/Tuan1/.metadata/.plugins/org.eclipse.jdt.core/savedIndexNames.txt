@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+D:\LTWWW\.metadata\.plugins\org.eclipse.jdt.core
+3413270776.index
+3616678646.index
+1865797976.index
+1520350106.index

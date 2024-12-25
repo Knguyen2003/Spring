@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.Blob"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.io.OutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.nio.file.Paths"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+</qualifiedTypeNameHistroy>

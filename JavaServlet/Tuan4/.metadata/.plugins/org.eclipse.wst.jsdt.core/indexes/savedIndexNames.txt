@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\LTWWW\Tuan4\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1590295517.index
+3198480242.index
+2337663770.index
+3755078864.index
+908825668.index
+1581169175.index

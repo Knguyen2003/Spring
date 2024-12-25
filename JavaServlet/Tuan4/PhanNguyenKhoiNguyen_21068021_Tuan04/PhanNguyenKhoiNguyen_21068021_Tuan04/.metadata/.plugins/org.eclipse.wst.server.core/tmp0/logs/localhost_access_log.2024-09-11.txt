@@ -1,0 +1,17 @@
+127.0.0.1 - - [11/Sep/2024:12:56:40 +0700] "GET / HTTP/1.1" 404 752
+127.0.0.1 - - [11/Sep/2024:14:20:06 +0700] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [11/Sep/2024:14:20:08 +0700] "GET /PhanNguyenKhoiNguyen_21068021_Tuan04/StudentForm.jsp HTTP/1.1" 200 3655
+0:0:0:0:0:0:0:1 - - [11/Sep/2024:14:20:08 +0700] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [11/Sep/2024:14:21:07 +0700] "GET /PhanNguyenKhoiNguyen_21068021_Tuan04/StudentForm.jsp HTTP/1.1" 200 3708
+0:0:0:0:0:0:0:1 - - [11/Sep/2024:14:21:36 +0700] "GET /PhanNguyenKhoiNguyen_21068021_Tuan04/StudentForm.jsp HTTP/1.1" 200 3748
+0:0:0:0:0:0:0:1 - - [11/Sep/2024:14:21:50 +0700] "GET /PhanNguyenKhoiNguyen_21068021_Tuan04/StudentForm.jsp HTTP/1.1" 200 3752
+0:0:0:0:0:0:0:1 - - [11/Sep/2024:14:22:02 +0700] "GET /PhanNguyenKhoiNguyen_21068021_Tuan04/StudentForm.jsp HTTP/1.1" 200 3760
+127.0.0.1 - - [11/Sep/2024:14:34:44 +0700] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [11/Sep/2024:14:34:45 +0700] "GET /PhanNguyenKhoiNguyen_21068021_Tuan04/StudentForm.jsp HTTP/1.1" 200 3760
+0:0:0:0:0:0:0:1 - - [11/Sep/2024:14:35:42 +0700] "POST /PhanNguyenKhoiNguyen_21068021_Tuan04/StudentSevlet HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024:14:37:07 +0700] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [11/Sep/2024:14:37:07 +0700] "GET /PhanNguyenKhoiNguyen_21068021_Tuan04/StudentForm.jsp HTTP/1.1" 200 3760
+0:0:0:0:0:0:0:1 - - [11/Sep/2024:14:37:18 +0700] "POST /PhanNguyenKhoiNguyen_21068021_Tuan04/StudentSevlet HTTP/1.1" 200 403
+0:0:0:0:0:0:0:1 - - [11/Sep/2024:14:39:27 +0700] "GET /PhanNguyenKhoiNguyen_21068021_Tuan04/StudentForm.jsp HTTP/1.1" 200 3760
+0:0:0:0:0:0:0:1 - - [11/Sep/2024:14:40:15 +0700] "POST /PhanNguyenKhoiNguyen_21068021_Tuan04/StudentSevlet HTTP/1.1" 200 397
+0:0:0:0:0:0:0:1 - - [11/Sep/2024:14:44:21 +0700] "GET /PhanNguyenKhoiNguyen_21068021_Tuan04/StudentForm.jsp HTTP/1.1" 200 3740

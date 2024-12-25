@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form method="get/post" action="TênServlet" name="registrationForm">
+		<h1>Register</h1>
+		<label>Name</label> Frist: <input type="text" name="first">
+		Last: <input type="text" name="last"> <label>Username</label>
+		<input type="text" name="usn"> <label>Email</label> <input
+			type="text" name="email"> <label>Password</label> <input
+			type="password" name="pw"> <label>Facebook</label> <input
+			type="text" name="face"> <label>Short Bio</label> <input
+			type="text" name="short">
+</body>
+</html>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd
+           http://www.springframework.org/schema/mvc
+           http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+
+	<!-- 3: Add support for component scanning -->
+	<context:component-scan
+		base-package="controllers,entities,dao" />
+
+	<!-- 4: Add support for conversion, formatting and validation support -->
+	<mvc:annotation-driven />
+
+	<bean id="myBeansValidator"
+		class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean" />
+
+	<!-- 5: Define Spring MVC view resolver -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/views/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+	<!-- 6: Define datasource -->
+	<bean id="ds"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName"
+			value="com.microsoft.sqlserver.jdbc.SQLServerDriver"></property>
+		<property name="url"
+			value="jdbc:sqlserver://localhost:1433;databaseName=QuanLyNhanVien;encrypt=false;"></property>
+		<property name="username" value="sa"></property>
+		<property name="password" value="sapassword"></property>
+	</bean>
+
+	<!-- 7: JBDC Template -->
+	<bean id="jt" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="ds"></property>
+	</bean>
+
+	<bean id="dao" class="dao.EmployeeDao">
+		<property name="jdbcTemplate" ref="jt"></property>
+	</bean>
+
+</beans>

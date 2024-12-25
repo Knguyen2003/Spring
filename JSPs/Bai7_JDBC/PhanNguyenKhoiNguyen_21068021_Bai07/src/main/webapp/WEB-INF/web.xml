@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>PhanNguyenKhoiNguyen_21068021_Bai07</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>DanhMucController</display-name>
+    <servlet-name>DanhMucController</servlet-name>
+    <servlet-class>controller.DanhMucController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DanhMucController</servlet-name>
+    <url-pattern>/DanhMucController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>TinTucController</display-name>
+    <servlet-name>TinTucController</servlet-name>
+    <servlet-class>controller.TinTucController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TinTucController</servlet-name>
+    <url-pattern>/TinTucController</url-pattern>
+  </servlet-mapping>
+</web-app>
